@@ -67,8 +67,8 @@ h1, h2, h3{
     align-items: center;
     
 }
-#second-nav{
-    display: contents;
+
+   
 }
 nav a {
     text-align: center;
@@ -79,3 +79,22 @@ nav a {
 #footpage1{
     justify-self: right;
 }
+footer a{
+    text-align: center;
+    color: rgb(252, 249, 249);
+    text-decoration: none;
+    padding: 35px;
+}
+.contact{
+   
+    
+}
+.second-nav{
+    grid-column: 5/5;
+
+}
+.footer-information{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
