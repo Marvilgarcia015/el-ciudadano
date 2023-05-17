@@ -61,15 +61,8 @@ h1, h2, h3{
     color: white;
   }
 
-.contact{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    
-}
-
    
-}
+
 nav a {
     text-align: center;
     color: rgb(252, 249, 249);
@@ -83,18 +76,41 @@ footer a{
     text-align: center;
     color: rgb(252, 249, 249);
     text-decoration: none;
-    padding: 35px;
+    padding: 0.5em;
+    
+    
+    
 }
 .contact{
-   
+  grid-column: 1/1;
+  text-align: center;
+  list-style: none;
+  align-self: center;
+  
+  
+  
+  
     
 }
 .second-nav{
-    grid-column: 5/5;
-
+    grid-column: 2/2;
+    text-align: center;
+    list-style: none;
+    align-self: center;
+   
 }
+
 .footer-information{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
+    
+}
+    
+footer li{
+    padding: 0.5em;
 }
 
+.social-media{
+    padding: 1em;
+}
