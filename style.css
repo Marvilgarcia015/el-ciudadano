@@ -13,7 +13,9 @@ nav{
     justify-content: space-around;
     opacity: .99;
     z-index: 2;
-    grid-template-rows: 0;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    
     
     
     
@@ -67,8 +69,8 @@ nav a {
     text-align: center;
     color: rgb(252, 249, 249);
     text-decoration: none;
-    padding: 35px;
-    padding-bottom: 3em;
+    padding-left: 15px;
+    padding-right: 15px;
     color: #E19A0D;
     font-weight: bold;
     font-size: 20px;
@@ -122,21 +124,20 @@ footer li{
 
 .hero-box{
 
-    margin-top: -100px;
+    margin-top: -120px;
 }
 
 button{
     background-color:#E19A0D;
-    padding: 15px 25px;
-    font-size: 24px;
+    padding: 10px 15px;
+    font-size: 17px;
     text-align: center;
     
-    
-    
+
     color: #fff;
     
     border: none;
-    border-radius: 15px;
+    border-radius: 20px;
     
 }
 button:hover {
@@ -146,24 +147,36 @@ button:hover {
 
 .social-media-1{
     display:;
-    padding: 00.5em;
+    
     grid-column: 5/5;
+    grid-row: 1/1;
+    align-self: center;
+    
 }
 
 nav ul a:hover{
-    background-color: #E19A0D; 
+    background-color: #e19a0d80; 
     color: black;
+    padding: 7%;
+    
 }
 
 #logo{
     grid-column: 1/3;
-    justify-self: center;
+    align-self: center;
     padding: 00.5em;
-    align-content: center;
+    width: 1000px;
+    grid-row: 1/1;
+    
     
     
 }
 
 nav ul{
     grid-column: 2/4;
+    margin: 3em;
+    padding: 0.25;
+    grid-row: 1/1;
 }
+
+
