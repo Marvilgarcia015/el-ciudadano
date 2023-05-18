@@ -72,7 +72,9 @@ h1, h2, h3{
    color: #fff;
    font-weight: bold;
  }
-
+.text-1 a:hover, .hero-text a:hover{
+ color: #FDAA63;
+}
 nav a {
   text-align: center;
   color: rgb(252, 249, 249);
